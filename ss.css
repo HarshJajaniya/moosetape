@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+body{
+  height:100%;
+  width: 100%; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    max-width: 85vw;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+    
+}
+.container{
+    margin-bottom: 2.8rem;
+}
+
+.class_header{
+ margin-bottom:2rem;
+ margin-top: 2rem;
+}
+
+.heading{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.about{
+    color: rgb(97, 94, 94);
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+ .card_container{
+
+    display: grid;
+    gap: 1.5rem;
+    /* grid-template-columns: repeat(1, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
+    justify-content: center;
+} 
+@media (min-width:650px){
+    .card_container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (min-width:935px) {
+    .card_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width:1380px) {
+    .card_container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width:1870px) {
+    .card_container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.card{
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5 rem;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.card_img_conatiner{
+    position: relative;
+    overflow: hidden;
+    height: 14rem;
+}
+
+.card_img{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.card:hover .card_img{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+
+.card_title_container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+.song_name{
+    color: rgb(19, 15, 15);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.card_title_container:hover .song_name{
+    color: rgb(118, 118, 233);
+}
+
+.card_body{
+    color: rgb(120, 120, 120);
+    font-size: 1rem;
+}
+
+.card_song_detail{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.collab{
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+     align-items: center;
+    gap: 1rem;
+    padding-left: 1rem;
+}
+
+.collab_img{
+    height: 2.5rem;
+    width: 2.5rem;
+    overflow: hidden;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 8px;
+}
+
+.collab_artist{
+    height: 100%;
+    width: 100%;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    font-size: 1.2rem;
+    color: rgb(17, 8, 118);
+}
+
+.release_date{
+    font-size: 1rem;
+    color: rgb(122, 122, 122);
+}
+
+.play{
+    display: flex;
+    margin-right: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+strong{
+    color: brown;
+    font-size: 2rem;
+}
+
+.last{
+ justify-content: center;
+ display: flex;
+ align-items: center;
+ margin: 2rem;
+}
