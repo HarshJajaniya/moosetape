@@ -1,5 +1,7 @@
 # Moosetape 🎵
 
+🎉 **[Live Demo: Moosetape](https://moosewalamusic.netlify.app/)** 🎉
+---
 Moosetape is a simple HTML and CSS project designed to let users play and download music from the iconic album *Moosetape* by Sidhu Moose Wala. This project demonstrates the capabilities of web design by creating a clean, responsive, and modern interface tailored for music enthusiasts.
 
 Whether you want to enjoy streaming music directly from your browser or download tracks for offline listening, Moosetape provides an easy and enjoyable experience. It is an ideal project for those interested in learning how to build visually appealing web applications using just HTML and CSS.
