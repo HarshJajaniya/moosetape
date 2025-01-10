@@ -27,7 +27,7 @@ Whether you want to enjoy streaming music directly from your browser or download
 Below are some visuals of the Moosetape project to showcase its design and functionality:
 
 - **Moosetape Player:**  
-  ![Moosetape Player](./screenshots/player-screenshot.png)  
+  ![Moosetape Player](https://github.com/HarshJajaniya/moosetape/blob/main/Screenshot%202025-01-10%20202130.png)  
   A beautifully crafted music player interface displaying the album cover, tracklist, and playback controls.
 
 - **Responsive Design:**  
