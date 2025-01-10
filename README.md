@@ -31,8 +31,11 @@ Below are some visuals of the Moosetape project to showcase its design and funct
   A beautifully crafted music player interface displaying the album cover, tracklist, and playback controls.
 
 - **Responsive Design:**  
-  ![Responsive Design](https://github.com/HarshJajaniya/moosetape/blob/main/Screenshot%202025-01-10%20202653.png)
-     ![Responsive Design](https://github.com/HarshJajaniya/moosetape/blob/main/Screenshot%202025-01-10%20202709.png)
+ <p align="center">
+  <img src="https://github.com/HarshJajaniya/moosetape/blob/main/Screenshot%202025-01-10%20202653.png" alt="Responsive Design 1" width="45%">
+  <img src="https://github.com/HarshJajaniya/moosetape/blob/main/Screenshot%202025-01-10%20202709.png" alt="Responsive Design 2" width="45%">
+</p>
+
 
   The project adapts effortlessly to different screen sizes, ensuring functionality and aesthetic appeal on all devices.
 
