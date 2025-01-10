@@ -52,4 +52,4 @@ Follow these steps to get started with Moosetape:
 1. **Clone the Repository:**  
    Begin by cloning the repository to your local machine. Use the following command in your terminal or command prompt:
    ```bash
-   git clone https://github.com/yourusername/moosetape.git
+   git clone https://github.com/HarshJajaniya/moosetape.git
